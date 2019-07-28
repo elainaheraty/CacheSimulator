@@ -1,1 +1,7 @@
-The data structures implemented in my program was an array which I used to store the lines of each set. An array that dynamically allocates space was the only data structure I used. The prefetcher changed the cache hits by increasing the number of cache hits considerably, however it did not change the number of memory reads. The increase in number of cache hits proves that most of the data is arranged spatially. The prefetcher increased the number of cache hits because when it has a miss, it proceeds to go to memory to look for a match in hopes that the next block will be used soon.
+The data structures implemented in my program was an array which I used to store the lines of each set.
+An array that dynamically allocates space was the only data structure I used.
+The prefetcher changed the cache hits by increasing the number of cache hits considerably,
+however it did not change the number of memory reads.
+The increase in number of cache hits proves that most of the data is arranged spatially.
+The prefetcher increased the number of cache hits because when it has a miss,
+it proceeds to go to memory to look for a match in hopes that the next block will be used soon.
