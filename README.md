@@ -8,12 +8,14 @@ Cache size and block size are specfied in bytes.
 • simulate a write through cache. 
 
 
-A) <cache size>is the total size of the cache in bytes. This number should be a power of 2. B) <associativity> is one of:
-direct - simulate a direct mapped cache.
-assoc - simulate a fully associative cache.
-assoc:n - simulate an n way associative cache. n will be a power of 2.
+A) <cache size>is the total size of the cache in bytes. This number should be a power of 2. 
+B) <associativity> is one of:
+  direct - simulate a direct mapped cache.
+  assoc - simulate a fully associative cache.
+  assoc:n - simulate an n way associative cache. n will be a power of 2.
 C) <cache policy> Here is valid cache policy is lru.
-D) <block size> is a power of 2 integer that specifies the size of the cache block in bytes. E) <trace file>is the name of the trace file.
+D) <block size> is a power of 2 integer that specifies the size of the cache block in bytes.
+E) <trace file>is the name of the trace file.
   
 Program should check if all the inputs are in valid format, if not it prints error and then terminates the program.
 
